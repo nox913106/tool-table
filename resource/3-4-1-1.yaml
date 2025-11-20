@@ -1,0 +1,15 @@
+# resource/3-4-1-1.yaml
+items:
+  - name: "寶元PYV-172.22.5.9:8443"
+    url: "https://fw.pyv.com.vn:8443"
+    icon: "fortinet-icon.png"
+  - name: "寶元PYV-172.22.5.8:8443"
+    url: "https://172.22.5.8:8443"
+    icon: "fortinet-icon.png"
+  - name: "LibreNMS PYV"
+    url: "https://network-pyv.pouchen.com"
+    icon: "librenms-icon.jpg"
+  - name: "寶成PCV-172.21.5.9:8443"
+    url: "https://172.21.5.9:8443"
+    icon: "fortinet-icon.png"
+

@@ -1,0 +1,9 @@
+# resource/4-1.yaml
+items:
+  - name: "Google Translate"
+    url: "https://translate.google.com.tw/?hl=zh-TW&sl=auto&tl=zh-TW&op=translate"
+    icon: "translate-icon.png"
+  - name: "PDF24 TOOLS"
+    url: "https://tools.pdf24.org/zh/all-tools"
+    icon: "pdf24-org.svg"
+

@@ -1,0 +1,15 @@
+# resource/3.yaml
+items:
+  - name: "3-1. 雲端 Cloud"
+    file: "3-1.yaml"
+  - name: "3-2. 臺灣區 Taiwan"
+    file: "3-2.yaml"
+  - name: "3-3. 大陸區 China"
+    file: "3-3.yaml"
+  - name: "3-4. 越南區 Viet Nam"
+    file: "3-4.yaml"
+  - name: "3-5. 印尼區 Indonesia"
+    file: "3-5.yaml"
+  - name: "3-6. 印度區 India"
+    file: "3-6.yaml"
+

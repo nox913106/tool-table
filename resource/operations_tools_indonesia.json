@@ -1,0 +1,71 @@
+{
+    "category": "維運工具 - 印尼",
+    "items": [
+        {
+            "name": "Sec1",
+            "subitems": [
+                {
+                    "name": "山下PCI-172.19.86.1(Intranet)",
+                    "url": "https://172.19.86.1",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+	        {
+                    "name": "山下PCI-172.19.5.202",
+                    "url": "https://172.19.5.202",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                }
+            ]
+        },
+        {
+            "name": "Sec2",
+            "subitems": [
+                {
+                    "name": "山上GSI-172.19.160.9",
+                    "url": "https://gsifw1.gsid.co.id",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                }
+            ]
+        },
+        {
+            "name": "Graylog",
+            "subitems": [
+                {
+                    "name": "ID - Network",
+                    "url": "https://id-log-network.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/graylog-icon.svg"
+                },
+                {
+                    "name": "ID - Netflow",
+                    "url": "https://id-log-netflow.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/graylog-icon.svg"
+                },
+                {
+                    "name": "ID - GSI01-Network & Netflow",
+                    "url": "https://id-gsi2-log-01.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/graylog-icon.svg"
+                },
+                {
+                    "name": "ID - GSI02-Firewall",
+                    "url": "https://id-glg40-gsi02.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/graylog-icon.svg"
+                },
+                {
+                    "name": "ID - PYI-Firewall",
+                    "url": "https://id-pyi-log-01.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/graylog-icon.svg"
+                }
+            ]
+        },
+	{
+            "name": "Jumpserver",
+            "subitems": [
+                {
+                        "name": "JS-PCI02",
+                        "url": "https://js-pci02.pouchen.com/",
+                        "icon": "/Max-Tool/resource/icon/jumpserver-icon.png"
+                }
+            ]
+        }
+    ]
+}
+

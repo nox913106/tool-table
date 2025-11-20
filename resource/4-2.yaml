@@ -1,0 +1,12 @@
+# resource/4-2.yaml
+items:
+  - name: "IBM X-Force Exchange"
+    url: "https://exchange.xforce.ibmcloud.com/"
+    icon: "ibm-xforce-icon.png"
+  - name: "Virus Total"
+    url: "https://www.virustotal.com/"
+    icon: "virustotal-icon.svg"
+  - name: "FortiGuard"
+    url: "https://www.fortiguard.com/webfilter"
+    icon: "fortiguard-icon.png"
+

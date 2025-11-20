@@ -1,0 +1,6 @@
+# resource/3-5-1.yaml
+items:
+  - name: "Sec1-PCI山下"
+    file: "3-5-1-1.yaml"
+  - name: "Sec2-GSI山上"
+    file: "3-5-1-2.yaml"

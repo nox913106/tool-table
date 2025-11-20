@@ -1,0 +1,6 @@
+# resource/3-3-1-2.yaml
+items:
+  - name: "上高SG-172.17.193.250"
+    url: "https://172.17.193.250"
+    icon: "fortinet-icon.png"
+

@@ -1,0 +1,11 @@
+# resource/4.yaml
+items:
+  - name: "4-1. 網路"
+    file: "4-1.yaml"
+  - name: "4-2. 安全"
+    file: "4-2.yaml"
+  - name: "4-3. 文書"
+    file: "4-3.yaml"
+  - name: "4-4. 生成式AI"
+    file: "4-4.yaml"
+

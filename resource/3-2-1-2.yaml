@@ -1,0 +1,15 @@
+# resource/3-2-1-2.yaml
+items:
+  - name: "HQ-121G-172.23.174.9"
+    url: "https://tcfw.pouchen.com"
+    icon: "fortinet-icon.png"
+  - name: "HQ-IOT-60E-172.23.175.172"
+    url: "https://tciotfw.pouchen.com"
+    icon: "fortinet-icon.png"
+  - name: "UAIC-61E-172.23.199.251"
+    url: "https://uaicfw.pouchen.com"
+    icon: "fortinet-icon.png"
+  - name: "CBD-101F-172.23.127.9"
+    url: "https://cbdfw.pouchen.com"
+    icon: "fortinet-icon.png"
+

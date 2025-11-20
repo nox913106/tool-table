@@ -1,0 +1,71 @@
+{
+    "category": "維運工具 - 大陸",
+    "items": [
+        {
+            "name": "Sec1-華南",
+            "subitems": [
+                {
+                    "name": "高埗GB-172.17.1.3",
+                    "url": "https://172.17.1.3",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "黃江HJ-172.24.5.9",
+                    "url": "https://172.24.5.9",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+		{
+                    "name": "安福AF-172.17.158.1",
+                    "url": "https://172.17.158.1",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+	        {
+	            "name": "Ruckus Wireless Controller",
+                    "url": "https://172.17.5.96:8443",
+                    "icon": "/Max-Tool/resource/icon/ruckus-icon.png"
+                }
+            ]
+        },
+        {
+            "name": "Sec2-華東",
+            "subitems": [
+                {
+                    "name": "上高SG-172.17.193.250",
+                    "url": "https://172.17.193.250",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                }
+            ]
+        },
+        {
+            "name": "Other-其他",
+            "subitems": [
+                {
+                    "name": "香港HK-172.20.5.8",
+                    "url": "https://hkfw.yueyuen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "澳門MO-172.20.23.9",
+                    "url": "https://mofw.yueyuenmo.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "孟加拉BD-172.18.152.19",
+                    "url": "https://172.18.152.19",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                }
+            ]
+        },
+        {
+            "name": "Jumpserver",
+            "subitems": [
+                {
+                        "name": "JS-上高01", 
+                        "url": "https://js-sg01.pouchen.com/", 
+                        "icon": "/Max-Tool/resource/icon/jumpserver-icon.png"
+                }
+            ]
+        }
+    ]
+}
+

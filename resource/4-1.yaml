@@ -1,0 +1,12 @@
+# resource/4-1.yaml
+items:
+  - name: "MACVendors.com"
+    url: "https://macvendors.com/"
+    icon: "macvender-icon.png"
+  - name: "Calculator.net"
+    url: "https://www.calculator.net/ip-subnet-calculator.html"
+    icon: "ipcalc-icon.svg"
+  - name: "Nslookup.io"
+    url: "https://www.nslookup.io/"
+    icon: "nslookup-icon.png"
+

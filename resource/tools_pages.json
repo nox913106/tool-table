@@ -1,0 +1,76 @@
+{
+    "category": "工具頁面",
+    "items": [
+        {
+		"name": "MACVendors.com", 
+		"url": "https://macvendors.com/", 
+		"icon": "/Max-Tool/resource/icon/macvender-icon.png"
+	},
+        {
+		"name": "Calculator.net", 
+		"url": "https://www.calculator.net/ip-subnet-calculator.html", 
+		"icon": "/Max-Tool/resource/icon/ipcalc-icon.svg"
+	},
+        {
+		"name": "Nslookup.io", 
+		"url": "https://www.nslookup.io/", 
+		"icon": "/Max-Tool/resource/icon/nslookup-icon.png"
+	},
+        {
+		"name": "IBM X-Force Exchange", 
+		"url": "https://exchange.xforce.ibmcloud.com/", 
+		"icon": "/Max-Tool/resource/icon/ibm-xforce-icon.png"
+	},
+        {
+		"name": "Virus Total", 
+		"url": "https://www.virustotal.com/", 
+		"icon": "/Max-Tool/resource/icon/virustotal-icon.svg"
+	},
+        {
+		"name": "FortiGuard", 
+		"url": "https://www.fortiguard.com/webfilter", 
+		"icon": "/Max-Tool/resource/icon/fortiguard-icon.png"
+	},
+        {
+		"name": "Google Translate", 
+		"url": "https://translate.google.com.tw/?hl=zh-TW&sl=auto&tl=zh-TW&op=translate", 
+		"icon": "/Max-Tool/resource/icon/translate-icon.png"
+	},
+  	{
+                "name": "PDF24 TOOLS",
+                "url": "https://tools.pdf24.org/zh/all-tools",
+                "icon": "/Max-Tool/resource/icon/pdf24-org.svg"
+        },
+        {
+            "name": "AI",
+            "subitems": [
+                {
+			"name": "OpenAI - ChatGPT", 
+			"url": "https://chatgpt.com/", 
+			"icon": "/Max-Tool/resource/icon/openai-icon.png"
+		},
+                {
+			"name": "Google - Gemini", 
+			"url": "https://gemini.google.com/app?hl=zh-TW", 
+			"icon": "/Max-Tool/resource/icon/gemini-icon.png"
+		},
+                {
+			"name": "Claude", 
+			"url": "https://claude.ai/new", 
+			"icon": "/Max-Tool/resource/icon/claude-icon.png"
+		},
+                {
+			"name": "Gamma - 簡報", 
+			"url": "https://gamma.app/", 
+			"icon": "/Max-Tool/resource/icon/gamma-icon.png"
+		},
+                {
+			"name": "Xmind AI - 心智圖", 
+			"url": "https://xmind.ai/home/team/_kzvaq_RzXFIcKFdy", 
+			"icon": "/Max-Tool/resource/icon/xmindai-icon.png"
+		}
+            ]
+        }
+    ]
+}
+

@@ -1,0 +1,12 @@
+# resource/3-2-2.yaml
+items:
+  - name: "Ruckus Wireless LiMAN System"
+    url: "https://auth1.ruckuswireless.com/login"
+    icon: "ruckus-icon.png"
+  - name: "Fortinet Support"
+    url: "https://customersso1.fortinet.com/"
+    icon: "fortinet-icon.png"
+  - name: "Cisco PLE"
+    url: "https://apps.cisco.com/ccw/cpc/guest/catalog/home"
+    icon: "cisco-icon.svg"
+

@@ -1,0 +1,18 @@
+# resource/3-4-1.yaml
+items:
+  - name: "Sec1-平政"
+    file: "3-4-1-1.yaml"
+  - name: "Sec2-寶崧"
+    file: "3-4-1-2.yaml"
+  - name: "寶元PYC-KH-172.26.5.9"
+    url: "https://fwpyc.pyv.com.vn:8443"
+    icon: "fortinet-icon.png"
+  - name: "LibreNMS KH"
+    url: "https://network-kh.pouchen.com"
+    icon: "librenms-icon.jpg"
+  - name: "MM-172.23.64.9"
+    url: "https://mmfw.pouchen.com:8443"
+    icon: "fortinet-icon.png"
+  - name: "LibreNMS MM"
+    url: "https://network-mm.pouchen.com"
+    icon: "librenms-icon.jpg"

@@ -1,0 +1,46 @@
+{
+    "category": "維運工具 - 雲端",
+    "items": [
+        {
+            "name": "Microsoft Azure",
+            "subitems": [
+                {
+			"name": "Azure Protal", 
+			"url": "https://portal.azure.com/#home", 
+			"icon": "/Max-Tool/resource/icon/azure-icon.svg"
+		},
+                {
+			"name": "Azure Protal_pouchen.onmicrosoft.com", 
+			"url": "https://portal.azure.com/pouchen.onmicrosoft.com", 
+			"icon": "/Max-Tool/resource/icon/azure-icon.svg"
+		},
+                {
+			"name": "FortiGate - azure-fw01", 
+			"url": "https://4.193.63.69/system/dashboard/1", 
+			"icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+		}
+            ]
+        },
+        {
+            "name": "AWS",
+            "subitems": [
+                {
+			"name": "新加坡正式區", 
+			"url": "https://pcgiam.signin.aws.amazon.com/console", 
+			"icon": "/Max-Tool/resource/icon/aws-icon.svg"
+		},
+                {
+			"name": "奧勒岡測試區", 
+			"url": "https://882500227281.signin.aws.amazon.com/console", 
+			"icon": "/Max-Tool/resource/icon/aws-icon.svg"
+		},
+                {
+			"name": "FortiGate - aws-fw01", 
+			"url": "https://52.220.126.95", 
+			"icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+		}
+            ]
+        }
+    ]
+}
+

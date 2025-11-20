@@ -1,0 +1,16 @@
+{
+    "category": "例行會議",
+    "items": [
+        {
+		"name": "Teams - SDCA",
+		"url": "https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_MjA5NzAwYzEtM2M0NC00NzAyLWJkMzEtNjA0NmNlNDY2NjFk%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25229417e3e0-b059-43b8-9389-01df1364256e%2522%252c%2522Oid%2522%253a%25229fe898fc-b340-4960-9a8c-5ece04d92798%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=d09578ff-dda9-4fee-820e-2c9422b889e7&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true",
+		"icon": "/Max-Tool/resource/icon/teams-icon.webp"
+	},
+        {
+		"name": "Teams - 每週一、三站立會議",
+	 	"url": "https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_ZTJjYjU3NTktNmY4OC00YjEwLWJkYjctYjkwOWYwNWRiODhm%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25229417e3e0-b059-43b8-9389-01df1364256e%2522%252c%2522Oid%2522%253a%25229fe898fc-b340-4960-9a8c-5ece04d92798%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=ec953252-12fa-4516-81e9-d9a7eebe19da&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true",
+	 	"icon": "/Max-Tool/resource/icon/teams-icon.webp"
+	}
+    ]
+}
+

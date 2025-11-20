@@ -1,0 +1,17 @@
+# resource/4-1.yaml
+items:
+  - name: "OpenAI - ChatGPT"
+    url: "https://chatgpt.com/"
+    icon: "openai-icon.png"
+  - name: "Google - Gemini"
+    url: "https://gemini.google.com/app?hl=zh-TW"
+    icon: "gemini-icon.png"
+  - name: "Claude"
+    url: "https://claude.ai/new"
+    icon: "claude-icon.png"
+  - name: "Gamma - 簡報"
+    url: "https://gamma.app/"
+    icon: "gamma-icon.png"
+  - name: "Xmind AI - 心智圖"
+    url: "https://xmind.ai/home/team/_kzvaq_RzXFIcKFdy"
+    icon: "xmindai-icon.png"

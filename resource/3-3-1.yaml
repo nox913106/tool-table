@@ -1,0 +1,12 @@
+# resource/3-3-1.yaml
+items:
+  - name: "3-3-1-1. Sec1-華東"
+    file: "3-3-1-1.yaml"
+  - name: "3-3-1-2. Sec2-華南"
+    file: "3-3-1-2.yaml"
+  - name: "孟加拉BD-172.18.152.19"
+    url: "https://bdfw.pouchen.com"
+    icon: "fortinet-icon.png"
+  - name: "LibreNMS BD"
+    url: "https://network-bd.pouchen.com"
+    icon: "librenms-icon.jpg"

@@ -1,0 +1,13 @@
+# resource/2.yaml
+items:
+  - name: "2-1. 臺灣區"
+    file: "2-1.yaml"
+  - name: "2-2. 大陸區"
+    file: "2-2.yaml"
+  - name: "2-3. 越南區"
+    file: "2-3.yaml"
+  - name: "2-4. 印尼區"
+    file: "2-4.yaml"
+  - name: "2-5. 印度區"
+    file: "2-5.yaml"
+

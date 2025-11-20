@@ -1,0 +1,6 @@
+# resource/1.yaml
+items:
+  - name: "1-1. 常用服務"
+    icon: "pouchen-icon.png"
+    file: "1-1.yaml"
+

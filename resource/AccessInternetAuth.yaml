@@ -1,0 +1,17 @@
+# resource/AccessInternetAuth.yaml
+sections:
+  - region: "彰化區"
+    items:
+      - name: "福興工業區 總公司"
+        url: "https://chfw.pouchen.com:1000/portal?"
+      - name: "福三路PGT - PCM"
+        url: "https://g3fw.pouchen.com:1000/portal?"
+  - region: "台中區"
+    items:
+      - name: "臺灣大道 總部 "
+        url: "https://tcfw.pouchen.com:1000/portal?"
+      - name: "CBD - PrimeAsia"
+        url: "https://cbdfw.pouchen.com:1000/portal?"
+      - name: "光威 - UAIC"
+        url: "https://uaicfw.pouchen.com:1000/portal?"
+

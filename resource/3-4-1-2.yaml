@@ -1,0 +1,8 @@
+# resource/3-4-1-2.yaml
+items:
+  - name: "寶崧PSV-192.168.250.50:8443(Intranet)"
+    url: "https://192.168.250.50:8443"
+    icon: "fortinet-icon.png"
+  - name: "LibreNMS PSV"
+    url: "https://network-psv.pouchen.com"
+    icon: "librenms-icon.jpg"

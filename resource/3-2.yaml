@@ -1,0 +1,9 @@
+# resource/3-2.yaml
+items:
+  - name: "3-2-1. 維運工具"
+    file: "3-2-1.yaml"
+  - name: "3-2-2. 維保後台"
+    file: "3-2-2.yaml"
+  - name: "3-2-3. 維運文件"
+    file: "3-2-3.yaml"
+

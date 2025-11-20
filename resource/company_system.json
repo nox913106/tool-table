@@ -1,0 +1,111 @@
+{
+    "category": "公司系統",
+    "items": [
+        {
+		"name": "ISMS資訊安全管理制度", 
+		"url": "https://cms.pouchen.com/it/km-info-security-mgmt", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "CMS", 
+		"url": "https://cms.pouchen.com/", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "BPMS", 
+		"url": "https://bpms.pouchen.com/", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "BPMS2", 
+		"url": "https://bpms2.pouchen.com/", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "訪客系統VMS", 
+		"url": "https://vms.pouchen.com/", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "函文系統Official-Doc", 
+		"url": "https://official-doc.pouchen.com/", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "WebOA表單管理系統", 
+		"url": "https://weboa.pouchen.com/", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "人力資源管理平台", 
+		"url": "https://hris.pouchen.com/", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "電話查詢系統", 
+		"url": "https://pccweb.pouchen.com/telecomweb/", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "eHRD | Learning System", 
+		"url": "https://e-training.pouchen.com/dist/index.html#/login", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "ASE 3.0", 
+		"url": "https://servicedesk.pouchen.com/esp/index.html", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "PCG Discourse", 
+		"url": "https://discourse.pouchen.com/", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+        {
+		"name": "Zimbra 網頁用戶端登入", 
+		"url": "https://zext.pouchen.com/", 
+		"icon": "/Max-Tool/resource/icon/pouchen-icon.png"
+	},
+  	{
+                "name": "Microsoft Teams web",
+                "url": "https://www.microsoft.com/zh-tw/microsoft-teams/log-in",
+                "icon": "/Max-Tool/resource/icon/m365-icon.webp"
+        },
+        {
+		"name": "Microsoft 365", 
+		"url": "https://www.office.com/?auth=2", 
+		"icon": "/Max-Tool/resource/icon/m365-icon.webp"
+	},
+        {
+            "name": "上網驗證",
+            "subitems": [
+                {
+			"name": "彰化總公司", 
+			"url": "https://chfw.pouchen.com:1000/portal?", 
+			"icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+		},
+                {
+			"name": "彰化G3", 
+			"url": "https://g3fw.pouchen.com:1000/portal?", 
+			"icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+		},
+                {
+			"name": "台中總部", 
+			"url": "https://tcfw.pouchen.com:1000/portal?", 
+			"icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+		},
+                {
+			"name": "台中CBD", 
+			"url": "https://cbdfw.pouchen.com:1000/portal?", 
+			"icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+		},
+                {
+			"name": "台中UAIC", 
+			"url": "https://uaicfw.pouchen.com:1000/portal?", 
+			"icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+		}
+            ]
+        }
+    ]
+}
+

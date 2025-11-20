@@ -1,0 +1,131 @@
+{
+    "category": "維運工具 - 台灣2",
+    "items": [
+        {
+            "name": "彰化",
+            "subitems": [
+                {
+                    "name": "HQ2-201F-172.16.5.9",
+                    "url": "https://chfw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "HQ2-101F-192.168.250.2(Intranet)",
+                    "url": "https://chgwfw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "PCN-101E-172.16.0.196",
+                    "url": "https://chpcnfw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "HQ2-IOT-60E-172.16.11.10",
+                    "url": "https://chiotfw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "PGT-301E-172.23.13.9",
+                    "url": "https://g3fw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                }
+            ]
+        },
+        {
+            "name": "台中",
+            "subitems": [
+                {
+                    "name": "HQ-301E-172.23.174.9",
+                    "url": "https://tcfw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "HQ-IOT-60E-172.23.175.172",
+                    "url": "https://tciotfw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "UAIC-61E-172.23.199.251",
+                    "url": "https://uaicfw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "CBD-101F-172.23.127.9",
+                    "url": "https://cbdfw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                }
+            ]
+        },
+        {
+            "name": "台北",
+            "subitems": [
+                {
+                    "name": "XY-60E-172.23.110.30",
+                    "url": "https://tpfw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "BaoYu-60E-172.23.94.9",
+                    "url": "https://tpbyfw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                }
+            ]
+        },
+        {
+            "name": "Cloud",
+            "subitems": [
+                {
+                    "name": "AWS-10.240.29.254",
+                    "url": "https://awsfw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                },
+                {
+                    "name": "Azure-10.240.13.4",
+                    "url": "https://azurefw.pouchen.com",
+                    "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+                }
+            ]
+        },
+        {
+            "name": "Jumpserver",
+            "subitems": [
+                {
+                    "name": "JS-TW01-EndUser",
+                    "url": "https://js-tw01.pouchen.com/",
+                    "icon": "/Max-Tool/resource/icon/jumpserver-icon.png"
+                },
+                {
+                    "name": "JS-TW02-System",
+                    "url": "https://js-tw02.pouchen.com/",
+                    "icon": "/Max-Tool/resource/icon/jumpserver-icon.png"
+                },
+                {
+                    "name": "JS-TW03-Network",
+                    "url": "https://js-tw03.pouchen.com/",
+                    "icon": "/Max-Tool/resource/icon/jumpserver-icon.png"
+                },
+                {
+                    "name": "JS-TW04-DBA",
+                    "url": "https://js-tw04.pouchen.com/",
+                    "icon": "/Max-Tool/resource/icon/jumpserver-icon.png"
+                },
+                {
+                    "name": "JS-TW05-IA",
+                    "url": "https://js-tw05.pouchen.com/",
+                    "icon": "/Max-Tool/resource/icon/jumpserver-icon.png"
+                },
+                {
+                    "name": "JS-TW06-GlobalIT",
+                    "url": "https://js-tw06.pouchen.com/",
+                    "icon": "/Max-Tool/resource/icon/jumpserver-icon.png"
+                },
+                {
+                    "name": "JS-TW07-External",
+                    "url": "https://js-tw07.pouchen.com/",
+                    "icon": "/Max-Tool/resource/icon/jumpserver-icon.png"
+                }
+            ]
+        }
+    ]
+}
+

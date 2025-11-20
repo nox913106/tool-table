@@ -1,0 +1,106 @@
+{
+    "category": "維運工具 - 台灣1",
+    "items": [
+        {
+            "name": "Ruckus Wireless Controller", 
+            "url": "https://wireless.pouchen.com:8443/", 
+            "icon": "/Max-Tool/resource/icon/ruckus-icon.png"
+        },
+        {
+            "name": "Ruckus Wireless LiMAN System", 
+            "url": "https://auth1.ruckuswireless.com/login", 
+            "icon": "/Max-Tool/resource/icon/ruckus-icon.png"
+        },
+        {
+            "name": "Fortinet Support", 
+            "url": "https://customersso1.fortinet.com/", 
+            "icon": "/Max-Tool/resource/icon/fortinet-icon.png"
+        },
+        {
+            "name": "Cisco PLE", 
+            "url": "https://apps.cisco.com/ccw/cpc/guest/catalog/home", 
+            "icon": "/Max-Tool/resource/icon/cisco-icon.svg"
+        },
+        {
+            "name": "LibreNMS", 
+            "url": "http://network.pouchen.com/", 
+            "icon": "/Max-Tool/resource/icon/librenms-icon.jpg"
+        },
+        {
+            "name": "rConfig 6", 
+            "url": "https://config-tw.pouchen.com/", 
+            "icon": "/Max-Tool/resource/icon/rconfig-icon.png"
+        },
+        {
+            "name": "phpIPAM", 
+            "url": "https://ipam-tw.pouchen.com/", 
+            "icon": "/Max-Tool/resource/icon/phpipam-icon.png"
+        },
+        {
+            "name": "NetFlow Analyzer", 
+            "url": "http://172.16.5.79/apiclient/ember/index.jsp#/Home/Dashboard/NFA/NFADB.traffic", 
+            "icon": "/Max-Tool/resource/icon/netflow-icon.webp"
+        },
+        {
+            "name": "GNS3", 
+            "url": "http://172.16.5.250/static/web-ui/server/1/projects", 
+            "icon": "/Max-Tool/resource/icon/gns3-icon.png"
+        },
+        {
+            "name": "SSL VPN - Ivanti Connect Secure", 
+            "url": "https://vpn.pouchen.com/iamadmin", 
+            "icon": "/Max-Tool/resource/icon/sslvpn-icon.webp"
+        },
+        {
+            "name": "Global - Grafana", 
+            "url": "https://twit-dashboard.pouchen.com/?orgId=1", 
+            "icon": "/Max-Tool/resource/icon/grafana_icon.svg"
+        },
+        {
+            "name": "Wazuh", 
+            "url": "https://stw-hids.pouchen.com/", 
+            "icon": "/Max-Tool/resource/icon/wazuh-icon.png"
+        },
+        {
+            "name": "CheckMK", 
+            "url": "https://tw-cmk20-hq.pouchen.com/myserver/check_mk/index.py?start_url=%2Fmyserver%2Fcheck_mk%2Fdashboard.py", 
+            "icon": "/Max-Tool/resource/icon/checkmk-icon.png"
+        },
+        {
+            "name": "Synology Drive", 
+            "url": "https://twoc01.pouchen.com/", 
+            "icon": "/Max-Tool/resource/icon/nas-icon.webp"
+        },
+        {
+            "name": "A10 Networks 1030s", 
+            "url": "https://172.16.5.85/gui/auth/login/", 
+            "icon": "/Max-Tool/resource/icon/a10-icon.png"
+        },
+        {
+            "name": "Microsoft 365 Login", 
+            "url": "https://login.microsoftonline.com/", 
+            "icon": "/Max-Tool/resource/icon/m365-icon.webp"
+        },
+        {
+            "name": "Graylog",
+            "subitems": [
+                {
+                    "name": "TW - Network", 
+                    "url": "https://tw-log-network.pouchen.com", 
+                    "icon": "/Max-Tool/resource/icon/graylog-icon.svg"
+                },
+                {
+                    "name": "TW - Netflow", 
+                    "url": "https://tw-log-netflow.pouchen.com", 
+                    "icon": "/Max-Tool/resource/icon/graylog-icon.svg"
+                },
+                {
+                    "name": "TW - System", 
+                    "url": "https://tw-log-system.pouchen.com", 
+                    "icon": "/Max-Tool/resource/icon/graylog-icon.svg"
+                }
+            ]
+        }
+    ]
+}
+
