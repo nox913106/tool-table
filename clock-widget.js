@@ -126,10 +126,9 @@
     document.head.appendChild(locationScript);
 
     async function initializeClock() {
-        await syncTime();
-
+        // Show clock immediately with local time, don't wait for sync
         const timeContainer = document.getElementById('time-display');
-        const now = new Date(new Date().getTime() + timeOffset);
+        const now = new Date();
         const h = ('0' + now.getHours()).slice(-2);
         const m = ('0' + now.getMinutes()).slice(-2);
         const s = ('0' + now.getSeconds()).slice(-2);
@@ -148,23 +147,33 @@
         timeContainer.appendChild(createColon());
         timeContainer.appendChild(sEl);
 
+        // Update date immediately
+        updateDateDisplay(now);
+
+        // Start update interval
         setInterval(() => {
             const now = new Date(new Date().getTime() + timeOffset);
             const hStr = ('0' + now.getHours()).slice(-2);
             const mStr = ('0' + now.getMinutes()).slice(-2);
             const sStr = ('0' + now.getSeconds()).slice(-2);
 
-            const year = now.getFullYear();
-            const month = ('0' + (now.getMonth() + 1)).slice(-2);
-            const day = ('0' + now.getDate()).slice(-2);
-            const weekday = clockWeekdays[now.getDay()];
-
             updateFlipTile(hEl, hStr);
             updateFlipTile(mEl, mStr);
             updateFlipTile(sEl, sStr);
 
-            document.getElementById('date-display').innerText = `${year}-${month}-${day} ${weekday}`;
+            updateDateDisplay(now);
         }, 1000);
+
+        // Sync time in background (non-blocking)
+        syncTime();
+    }
+
+    function updateDateDisplay(now) {
+        const year = now.getFullYear();
+        const month = ('0' + (now.getMonth() + 1)).slice(-2);
+        const day = ('0' + now.getDate()).slice(-2);
+        const weekday = clockWeekdays[now.getDay()];
+        document.getElementById('date-display').innerText = `${year}-${month}-${day} ${weekday}`;
     }
 
     if (document.readyState === 'loading') {

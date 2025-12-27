@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tool Table 管理後台</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+    <header class="admin-header">
+        <h1>🔧 Tool Table 管理後台</h1>
+        <div class="header-actions">
+            <a href="/" class="btn btn-secondary">← 返回入口</a>
+            <button id="theme-toggle" class="btn btn-icon" title="切換主題">🌙</button>
+        </div>
+    </header>
+
+    <div class="admin-container">
+        <!-- Left: Tree Navigation -->
+        <aside class="tree-panel">
+            <div class="panel-header">
+                <h2>📂 節點結構</h2>
+                <button id="btn-add-root" class="btn btn-sm btn-primary" title="新增根節點">＋ 根節點</button>
+            </div>
+            <div class="tree-search">
+                <input type="text" id="tree-search" placeholder="搜尋節點..." />
+            </div>
+            <div id="tree-container" class="tree-container">
+                <div class="loading">載入中...</div>
+            </div>
+        </aside>
+
+        <!-- Right: Editor Panel -->
+        <main class="editor-panel">
+            <div id="editor-placeholder" class="editor-placeholder">
+                <p>👈 點選左側節點進行編輯</p>
+                <p>或點擊「＋ 根節點」新增項目</p>
+            </div>
+
+            <form id="node-form" class="node-form" style="display: none;">
+                <div class="form-header">
+                    <h2 id="form-title">編輯節點</h2>
+                    <span id="node-code" class="node-code"></span>
+                </div>
+
+                <input type="hidden" id="node-id" />
+
+                <div class="form-group">
+                    <label for="node-name">名稱 *</label>
+                    <input type="text" id="node-name" required />
+                </div>
+
+                <div class="form-group">
+                    <label>類型 *</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="node-type" value="folder" checked />
+                            <span>📁 資料夾</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="node-type" value="link" />
+                            <span>🔗 連結</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="node-icon">圖示</label>
+                    <select id="node-icon">
+                        <option value="">無</option>
+                    </select>
+                    <img id="icon-preview" class="icon-preview" src="" alt="" style="display: none;" />
+                </div>
+
+                <div class="form-group" id="url-group" style="display: none;">
+                    <label for="node-url">網址 *</label>
+                    <input type="url" id="node-url" placeholder="https://" />
+                </div>
+
+                <div class="form-group">
+                    <label for="node-sort">排序</label>
+                    <input type="number" id="node-sort" value="0" min="0" />
+                </div>
+
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="node-active" checked />
+                        <span>啟用</span>
+                    </label>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">💾 儲存</button>
+                    <button type="button" id="btn-add-child" class="btn btn-success">➕ 新增子項目</button>
+                    <button type="button" id="btn-delete" class="btn btn-danger">🗑️ 刪除</button>
+                </div>
+            </form>
+        </main>
+    </div>
+
+    <!-- Auth Links Section -->
+    <section class="auth-section">
+        <div class="section-header">
+            <h2>🌐 上網驗證管理</h2>
+            <button id="btn-add-auth" class="btn btn-primary">➕ 新增連結</button>
+        </div>
+        <table class="auth-table" id="auth-table">
+            <thead>
+                <tr>
+                    <th>區域</th>
+                    <th>名稱</th>
+                    <th>網址</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody id="auth-tbody">
+                <tr>
+                    <td colspan="4" class="loading">載入中...</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Icon Management Section -->
+    <section class="auth-section">
+        <div class="section-header">
+            <h2>🖼️ 圖示管理</h2>
+            <div class="icon-actions">
+                <input type="file" id="icon-upload-input" accept=".png,.jpg,.jpeg,.svg,.webp,.gif" style="display:none"
+                    multiple />
+                <button id="btn-upload-icon" class="btn btn-primary">📤 上傳圖示</button>
+            </div>
+        </div>
+        <div class="icon-gallery" id="icon-gallery">
+            <div class="loading">載入中...</div>
+        </div>
+    </section>
+
+    <!-- Auth Link Modal -->
+    <div id="auth-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="auth-modal-title">新增驗證連結</h3>
+                <button class="modal-close" onclick="closeAuthModal()">&times;</button>
+            </div>
+            <form id="auth-form">
+                <input type="hidden" id="auth-id" />
+                <div class="form-group">
+                    <label for="auth-region">區域 *</label>
+                    <input type="text" id="auth-region" required list="region-list" />
+                    <datalist id="region-list"></datalist>
+                </div>
+                <div class="form-group">
+                    <label for="auth-name">名稱 *</label>
+                    <input type="text" id="auth-name" required />
+                </div>
+                <div class="form-group">
+                    <label for="auth-url">網址 *</label>
+                    <input type="url" id="auth-url" required placeholder="https://" />
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">💾 儲存</button>
+                    <button type="button" class="btn btn-secondary" onclick="closeAuthModal()">取消</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Confirm Modal -->
+    <div id="confirm-modal" class="modal" style="display: none;">
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3 id="confirm-title">確認</h3>
+            </div>
+            <div class="modal-body">
+                <p id="confirm-message"></p>
+            </div>
+            <div class="form-actions">
+                <button id="confirm-yes" class="btn btn-danger">確定</button>
+                <button id="confirm-no" class="btn btn-secondary">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Prompt Modal -->
+    <div id="prompt-modal" class="modal" style="display: none;">
+        <div class="modal-content modal-sm">
+            <div class="modal-header">
+                <h3 id="prompt-title">輸入</h3>
+            </div>
+            <div class="modal-body">
+                <p id="prompt-message"></p>
+                <input type="text" id="prompt-input" class="prompt-input" />
+            </div>
+            <div class="form-actions">
+                <button id="prompt-ok" class="btn btn-primary">確定</button>
+                <button id="prompt-cancel" class="btn btn-secondary">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Child Modal -->
+    <div id="add-child-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>新增子項目</h3>
+                <button class="modal-close" onclick="closeAddChildModal()">&times;</button>
+            </div>
+            <form id="add-child-form">
+                <div class="form-group">
+                    <label>類型 *</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="add-child-type" value="folder" checked />
+                            <span>📁 資料夾</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="add-child-type" value="link" />
+                            <span>🔗 連結</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="add-child-name">名稱 *</label>
+                    <input type="text" id="add-child-name" required />
+                </div>
+                <div class="form-group" id="add-child-url-group" style="display: none;">
+                    <label for="add-child-url">網址 *</label>
+                    <input type="url" id="add-child-url" placeholder="https://" />
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">➕ 新增</button>
+                    <button type="button" class="btn btn-secondary" onclick="closeAddChildModal()">取消</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+
+</html>
